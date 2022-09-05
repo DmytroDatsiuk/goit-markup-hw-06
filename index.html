@@ -66,43 +66,40 @@
 
               <div class="form">
                 <form class="form js-speaker-form">
-                  <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>
-                    <div class="form-field">
-                      
-                      <input class="form-input" type="text" name="name" id="name" autofocus placeholder="">
-                      <label class="form-label" for="name">Ім'я</label>
+                  <h2 class="form-title">Залиште свої дані, ми вам передзвонимо</h2>                   
+                    <label class="form-field">
+                      <input class="form-input" type="text" name="name" autofocus placeholder="">
+                      <span class="form-label">Ім'я</span>
                       <svg class="form-icon" width="12" height="12">
                         <use href="./img/SVG/icons.svg#name"></use>
                       </svg>
-                    </div>
-                    <div class="form-field">
-                      
-                      <input class="form-input" type="tel" name="tel" id="tel" placeholder="">
-                      <label class="form-label" for="tel">Телефон</label>
+                    </label>
+                    <label class="form-field">
+                      <input class="form-input" type="tel" name="tel" placeholder="">
+                      <span class="form-label">Телефон</span>
                       <svg class="form-icon" width="13" height="13">
                         <use href="./img/SVG/icons.svg#tel"></use>
                       </svg>
-                    </div>
-                    <div class="form-field">
-                      
-                      <input class="form-input" type="email" name="mail" id="mail" placeholder="" >
-                      <label class="form-label" for="mail">Пошта</label>
+                    </label>                   
+                    <label class="form-field">
+                      <input class="form-input" type="email" name="mail"placeholder="" >
+                      <span class="form-label">Пошта</span>
                       <svg class="form-icon" width="15" height="12">
                         <use href="./img/SVG/icons.svg#mail"></use>
                       </svg>
-                    </div>
-                    <div class="form-field comment">
-                      
-                      <textarea name="comment" id="comment" rows="5" placeholder="Введіть текст"></textarea>
-                      <label class="form-label" for="comment">Кометар</label>
-                    </div>
-                    <div class="form-field checkbox">
-                      <input class="check-input" type="checkbox" name="agree" id="agree">
-                      <label class="check-label" for="agree">Погоджуююся з розсилкою та приймаю <a href="">Умови договору</a></label>
-                    </div>
-                    <div class="form-submit">
-                      <button type="submit" class="form-button">Відправити</button>
-                    </div>
+                    </label>
+                    <label class="form-field">
+                      <textarea class="comment-text" name="comment" rows="5" placeholder="Введіть текст"></textarea>
+                      <span class="form-label">Кометар</span>
+                    </label>
+                    <label class="form-field checkbox">
+                      <input class="check-input visually-hidden" type="checkbox" name="topic" value="check-label">
+                      <svg class="icon-span">
+                        <use href="./img/SVG/icons.svg#check"></use>
+                      </svg>
+                      <span class="check-label">Погоджуююся з розсилкою та приймаю <a href="">Умови договору</a></span>
+                    </label>
+                    <button type="submit" class="form-button">Відправити</button>
                 </form>
               </div>
             </div>
