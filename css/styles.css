@@ -295,7 +295,7 @@ ul {
   fill: var(--primary-text-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.comment-text {
+.comment__text {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: none;
@@ -304,21 +304,25 @@ ul {
   padding: 12px 16px;
   resize: none;
 }
-.form__field:focus-within > .form-input {
+.form__field:focus-within > .form__input {
   border: 1px solid var(--brand-color);
 }
-.form__field:focus-within > .form-icon {
+.form__field:focus-within > .form__icon {
   fill: var(--brand-color);
 }
-.form__field:focus-within > .comment-text {
+.form__field:focus-within > .comment__text {
   border: 1px solid var(--brand-color);
 }
 .checkbox {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-
   margin-bottom: 30px;
+
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
 }
 .checkbox__input:checked + .checkbox__icon {
   border-color: var(--brand-color);
@@ -337,12 +341,8 @@ ul {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox {
-  color: var(--secondary-text-color);
-
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
+.checkbox__link {
+  color: var(--brand-color);
 }
 .form__button {
   width: 200px;
@@ -586,6 +586,9 @@ ul {
 .footer__logo--color {
   color: var(--primary-white-color);
 }
+.footer__contact {
+  margin-right: 70px;
+}
 .address {
   font-style: normal;
 }
@@ -599,7 +602,7 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-right: 70px;
+  
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -658,7 +661,7 @@ ul {
 }
 .follow {
   width: 570px;
-  height: 86px;
+
   margin-left: auto;
 }
 .follow__box {
