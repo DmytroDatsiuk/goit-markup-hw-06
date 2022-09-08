@@ -92,8 +92,8 @@ ul {
 }
 .nav__link:hover,
 .nav__link:focus,
-.contact-link:hover,
-.contact-link:focus {
+.contact__link:hover,
+.contact__link:focus {
   color: var(--brand-color);
   fill: var(--brand-color);
 }
@@ -753,10 +753,10 @@ ul {
     1px 4px 6px rgba(0, 0, 0, 0.16);
    
 }
-.works__link:hover .works-description {
+.works__link:hover .works__description {
   transform: translateY(0);
 }
-.works__link:focus  .works-description {
+.works__link:focus  .works__description {
   transform: translateY(0);
 }
 .works__thumb {
